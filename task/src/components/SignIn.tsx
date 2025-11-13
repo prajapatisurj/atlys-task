@@ -1,4 +1,3 @@
-// src/components/SignIn.tsx
 import { motion } from "framer-motion";
 import { LogIn } from "lucide-react";
 

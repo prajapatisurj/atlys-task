@@ -1,4 +1,3 @@
-// src/components/SignUp.tsx
 import { motion } from "framer-motion";
 import { UserPlus } from "lucide-react";
 

@@ -1,4 +1,3 @@
-// src/App.tsx
 import { useState } from "react";
 import Feed from "./components/Feed";
 import SignIn from "./components/SignIn";
@@ -20,10 +19,7 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen">
-      {/* Feed is always visible */}
       <Feed openSignIn={openSignIn} />
-
-      {/* MODALS - ANIMATED & OVERLAY */}
       <AnimatePresence>
         {modal === "signin" && (
           <SignIn onSwitch={handleSwitch} onClose={closeModal} />

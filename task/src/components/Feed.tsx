@@ -1,6 +1,5 @@
-// src/components/Feed.tsx
 import { useState, useRef, useEffect } from "react";
-import MessageCard from "./MessageCard"; // ← Fixed import
+import MessageCard from "./MessageCard";
 import { Message } from "../types";
 import { motion } from "framer-motion";
 import {
